@@ -10,6 +10,7 @@ list1 = [10, 23, 27, 30, 31] #getting odd numbers in this list and transfer to t
 list2 = [40, 45, 63, 75, 91] #getting even numbers in this list and transfer to the new list.
 
 # >>>>>>>>>> PSEUDO CODE <<<<<<<<<
+# ----- ACTUAL CODE -----
 # - This section is for the for loop
 for i in list1:
     pass
