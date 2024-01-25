@@ -1,7 +1,5 @@
 
 # ----- VARIABLES -----
-
-# >>>>>>>>>> PSEUDO CODE <<<<<<<<<
 # - Given List
     # Given:
     # list1 = [10, 20, 25, 30, 35]
@@ -11,6 +9,7 @@
 list1 = [10, 23, 27, 30, 31] #getting odd numbers in this list and transfer to the new list.
 list2 = [40, 45, 63, 75, 91] #getting even numbers in this list and transfer to the new list.
 
+# >>>>>>>>>> PSEUDO CODE <<<<<<<<<
 # - This section is for the for loop
 for i in list1:
     pass
