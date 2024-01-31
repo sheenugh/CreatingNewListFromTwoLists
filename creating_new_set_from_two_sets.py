@@ -4,10 +4,10 @@
     # Given:
     # list1 = [10, 20, 25, 30, 35]
     # list2 = [40, 45, 60, 75, 90]
-    # Since the two given list consist of both even numbers, I'll be creating a new two list on my own.
+    
 
-list1 = [10, 23, 27, 30, 31] #getting odd numbers in this list and transfer to the new list.
-list2 = [40, 45, 63, 75, 91] #getting even numbers in this list and transfer to the new list.
+list1 = [10, 20, 25, 30, 35] #getting odd numbers in this list and transfer to the new list.
+list2 = [40, 45, 60, 75, 90] #getting even numbers in this list and transfer to the new list.
 
 
 # ------ FUNCTIONS ------
