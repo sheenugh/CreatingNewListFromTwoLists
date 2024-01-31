@@ -10,7 +10,7 @@ list1 = [10, 23, 27, 30, 31] #getting odd numbers in this list and transfer to t
 list2 = [40, 45, 63, 75, 91] #getting even numbers in this list and transfer to the new list.
 
 
-# ------ FUNCTIONS -----
+# ------ FUNCTIONS ------
 def create_new_list(list1, list2):
     new_list = []
 
