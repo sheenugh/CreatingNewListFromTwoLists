@@ -9,10 +9,25 @@
 list1 = [10, 23, 27, 30, 31] #getting odd numbers in this list and transfer to the new list.
 list2 = [40, 45, 63, 75, 91] #getting even numbers in this list and transfer to the new list.
 
+
+# ------ FUNCTIONS -----
+def create_new_list(list1, list2):
+    new_list = []
+
+    # Add odd numbers from the first list
+    for num in list1:
+        if num % 2 != 0:
+            new_list.append(num)
+
+    # Add even numbers from the second list
+    for num2 in list2:
+        if num2 % 2 == 0:
+            new_list.append(num2)
+
+    return new_list
+
+
 # >>>>>>>>>> PSEUDO CODE <<<<<<<<<
 # - This section is for the for loop
-for i in list1:
-    pass
-for j in list2:
-    pass
-print("New or Result List = ", [list1[1], list1[2], list1[4], list2[1], list2[0], list2[3]])
+result_list = create_new_list(list1, list2)
+print(result_list)
