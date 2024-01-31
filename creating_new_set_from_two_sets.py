@@ -28,6 +28,7 @@ def create_new_list(list1, list2):
 
 
 # >>>>>>>>>> PSEUDO CODE <<<<<<<<<
+# ----- ACTUAL CODE -----
 # - This section is for the for loop
-result_list = create_new_list(list1, list2)
-print(result_list)
+result = create_new_list(list1, list2)
+print("New or Result List = ", result)
